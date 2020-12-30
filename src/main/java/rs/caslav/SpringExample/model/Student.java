@@ -12,7 +12,7 @@ public class Student implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private int id;
+    private Integer id;
     @Column(name = "firstname")
     private String firstname;
     @Column(name = "lastname")
